@@ -22,7 +22,6 @@ mongoose.connection.on('error', (err) => {
  
 });
 
-console.log(process.env.IP);
 const app = express();
 
 const users = require('./routes/users');
@@ -38,6 +37,12 @@ app.use(express.static(path.join(__dirname, 'client')));
 
 // Body Parser Middleware
 app.use(bodyParser.json());
+
+// Passport Middleware
+app.use(passport.initialize());
+app.use(passport.session());
+
+require('./config/passport')(passport);
 
 app.use('/users', users);
 
