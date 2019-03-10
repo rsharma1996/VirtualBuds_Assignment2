@@ -1,0 +1,490 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'node',
+12 silly mapToRegistry   name: 'node',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 verbose request uri https://registry.npmjs.org/node
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 8:05:15 AM
+17 verbose request id 7fec06db53013330
+18 verbose etag W/"60f90c5a58741df8460f3a17464da368"
+19 verbose lastModified Thu, 07 Mar 2019 04:05:36 GMT
+20 http request GET https://registry.npmjs.org/node
+21 http 304 https://registry.npmjs.org/node
+22 verbose headers { date: 'Sun, 10 Mar 2019 08:05:15 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=dcd5c65d0c0deb3d085e3fea8f2f62f781552205115; expires=Mon, 09-Mar-20 08:05:15 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-ray': '4b53c852be5cc55a-ORD',
+22 verbose headers   etag: '"60f90c5a58741df8460f3a17464da368"',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'last-modified': 'Thu, 07 Mar 2019 04:05:36 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   'x-amz-meta-rev': '467-ddb5101e648337d0c5b3df14bc51206c',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 10 Mar 2019 08:05:15 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=dcd5c65d0c0deb3d085e3fea8f2f62f781552205115; expires=Mon, 09-Mar-20 08:05:15 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-ray': '4b53c852be5cc55a-ORD',
+23 silly get     etag: '"60f90c5a58741df8460f3a17464da368"',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'last-modified': 'Thu, 07 Mar 2019 04:05:36 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     'x-amz-meta-rev': '467-ddb5101e648337d0c5b3df14bc51206c',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/node from cache
+25 verbose get saving node to /home/ubuntu/.npm/registry.npmjs.org/node/.cache.json
+26 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule node@11.11.0 checking installable status
+40 silly cache add args [ 'node', null ]
+41 verbose cache add spec node
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'node',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'node',
+42 silly cache add   name: 'node',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed node@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for node
+45 info addNameTag [ 'node', 'latest' ]
+46 silly mapToRegistry name node
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'node',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'node',
+49 silly mapToRegistry   name: 'node',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/node
+51 verbose addNameTag registry:https://registry.npmjs.org/node not in flight; fetching
+52 verbose get https://registry.npmjs.org/node not expired, no request
+53 silly addNameTag next cb for node with tag latest
+54 silly addNamed node@11.11.0
+55 verbose addNamed "11.11.0" is a plain semver version for node
+56 silly cache afterAdd node@11.11.0
+57 verbose afterAdd /home/ubuntu/.npm/node/11.11.0/package/package.json not in flight; writing
+58 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /home/ubuntu/.npm/node/11.11.0/package/package.json written
+60 silly fetchNamedPackageData node-bin-setup
+61 silly mapToRegistry name node-bin-setup
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'node-bin-setup',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'node-bin-setup',
+64 silly mapToRegistry   name: 'node-bin-setup',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+66 verbose request uri https://registry.npmjs.org/node-bin-setup
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 8:05:15 AM
+69 verbose etag W/"696d6ec470fda56a33885508a280edab"
+70 verbose lastModified Sun, 27 May 2018 09:55:03 GMT
+71 http request GET https://registry.npmjs.org/node-bin-setup
+72 http 304 https://registry.npmjs.org/node-bin-setup
+73 verbose headers { date: 'Sun, 10 Mar 2019 08:05:15 GMT',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'set-cookie': [ '__cfduid=dcd5c65d0c0deb3d085e3fea8f2f62f781552205115; expires=Mon, 09-Mar-20 08:05:15 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+73 verbose headers   'cf-cache-status': 'HIT',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   'cf-ray': '4b53c853f8f2c55a-ORD',
+73 verbose headers   etag: '"696d6ec470fda56a33885508a280edab"',
+73 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 verbose headers   'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+73 verbose headers   vary: 'accept-encoding, accept',
+73 verbose headers   server: 'cloudflare' }
+74 silly get cb [ 304,
+74 silly get   { date: 'Sun, 10 Mar 2019 08:05:15 GMT',
+74 silly get     connection: 'keep-alive',
+74 silly get     'set-cookie': [ '__cfduid=dcd5c65d0c0deb3d085e3fea8f2f62f781552205115; expires=Mon, 09-Mar-20 08:05:15 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+74 silly get     'cf-cache-status': 'HIT',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     'cf-ray': '4b53c853f8f2c55a-ORD',
+74 silly get     etag: '"696d6ec470fda56a33885508a280edab"',
+74 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+74 silly get     'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+74 silly get     vary: 'accept-encoding, accept',
+74 silly get     server: 'cloudflare' } ]
+75 verbose etag https://registry.npmjs.org/node-bin-setup from cache
+76 verbose get saving node-bin-setup to /home/ubuntu/.npm/registry.npmjs.org/node-bin-setup/.cache.json
+77 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+78 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+79 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+80 verbose cache add spec node-bin-setup@^1.0.0
+81 silly cache add parsed spec Result {
+81 silly cache add   raw: 'node-bin-setup@^1.0.0',
+81 silly cache add   scope: null,
+81 silly cache add   escapedName: 'node-bin-setup',
+81 silly cache add   name: 'node-bin-setup',
+81 silly cache add   rawSpec: '^1.0.0',
+81 silly cache add   spec: '>=1.0.0 <2.0.0',
+81 silly cache add   type: 'range' }
+82 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+83 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+84 silly addNameRange { name: 'node-bin-setup',
+84 silly addNameRange   range: '>=1.0.0 <2.0.0',
+84 silly addNameRange   hasData: false }
+85 silly mapToRegistry name node-bin-setup
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'node-bin-setup',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'node-bin-setup',
+88 silly mapToRegistry   name: 'node-bin-setup',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+90 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+91 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+92 silly addNameRange number 2 { name: 'node-bin-setup',
+92 silly addNameRange   range: '>=1.0.0 <2.0.0',
+92 silly addNameRange   hasData: true }
+93 silly addNameRange versions [ 'node-bin-setup',
+93 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+94 silly addNamed node-bin-setup@1.0.6
+95 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+96 silly cache afterAdd node-bin-setup@1.0.6
+97 verbose afterAdd /home/ubuntu/.npm/node-bin-setup/1.0.6/package/package.json not in flight; writing
+98 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+99 verbose afterAdd /home/ubuntu/.npm/node-bin-setup/1.0.6/package/package.json written
+100 silly loadAllDepsIntoIdealTree Finishing
+101 silly loadIdealTree Finishing
+102 silly currentTree virtualbuds@1.0.0
+102 silly currentTree ├── accepts@1.3.5
+102 silly currentTree ├── array-flatten@1.1.1
+102 silly currentTree ├── async@2.6.1
+102 silly currentTree ├── bcryptjs@2.4.3
+102 silly currentTree ├── bluebird@3.5.1
+102 silly currentTree ├── body-parser@1.18.3
+102 silly currentTree ├── bson@1.1.1
+102 silly currentTree ├── buffer-equal-constant-time@1.0.1
+102 silly currentTree ├── bytes@3.0.0
+102 silly currentTree ├── content-disposition@0.5.2
+102 silly currentTree ├── content-type@1.0.4
+102 silly currentTree ├── cookie-signature@1.0.6
+102 silly currentTree ├── cookie@0.3.1
+102 silly currentTree ├── cors@2.8.5
+102 silly currentTree ├── debug@2.6.9
+102 silly currentTree ├── depd@1.1.2
+102 silly currentTree ├── destroy@1.0.4
+102 silly currentTree ├── ecdsa-sig-formatter@1.0.11
+102 silly currentTree ├── ee-first@1.1.1
+102 silly currentTree ├── encodeurl@1.0.2
+102 silly currentTree ├── escape-html@1.0.3
+102 silly currentTree ├── etag@1.8.1
+102 silly currentTree ├─┬ express@4.16.4
+102 silly currentTree │ └── statuses@1.4.0
+102 silly currentTree ├─┬ finalhandler@1.1.1
+102 silly currentTree │ └── statuses@1.4.0
+102 silly currentTree ├── forwarded@0.1.2
+102 silly currentTree ├── fresh@0.5.2
+102 silly currentTree ├── http-errors@1.6.3
+102 silly currentTree ├── iconv-lite@0.4.23
+102 silly currentTree ├── inherits@2.0.3
+102 silly currentTree ├── ipaddr.js@1.8.0
+102 silly currentTree ├─┬ jsonwebtoken@8.5.0
+102 silly currentTree │ └── ms@2.1.1
+102 silly currentTree ├── jwa@1.4.0
+102 silly currentTree ├── jws@3.2.1
+102 silly currentTree ├── kareem@2.3.0
+102 silly currentTree ├── lodash.includes@4.3.0
+102 silly currentTree ├── lodash.isboolean@3.0.3
+102 silly currentTree ├── lodash.isinteger@4.0.4
+102 silly currentTree ├── lodash.isnumber@3.0.3
+102 silly currentTree ├── lodash.isplainobject@4.0.6
+102 silly currentTree ├── lodash.isstring@4.0.1
+102 silly currentTree ├── lodash.once@4.1.1
+102 silly currentTree ├── lodash@4.17.11
+102 silly currentTree ├── media-typer@0.3.0
+102 silly currentTree ├── memory-pager@1.5.0
+102 silly currentTree ├── merge-descriptors@1.0.1
+102 silly currentTree ├── methods@1.1.2
+102 silly currentTree ├── mime-db@1.38.0
+102 silly currentTree ├── mime-types@2.1.22
+102 silly currentTree ├── mime@1.4.1
+102 silly currentTree ├── mongodb-core@3.1.11
+102 silly currentTree ├── mongodb@3.1.13
+102 silly currentTree ├── mongoose-legacy-pluralize@1.0.2
+102 silly currentTree ├─┬ mongoose@5.4.18
+102 silly currentTree │ └── ms@2.1.1
+102 silly currentTree ├── mpath@0.5.1
+102 silly currentTree ├─┬ mquery@3.2.0
+102 silly currentTree │ └── debug@3.1.0
+102 silly currentTree ├── ms@2.0.0
+102 silly currentTree ├── negotiator@0.6.1
+102 silly currentTree ├── object-assign@4.1.1
+102 silly currentTree ├── on-finished@2.3.0
+102 silly currentTree ├── parseurl@1.3.2
+102 silly currentTree ├── passport-jwt@4.0.0
+102 silly currentTree ├── passport-strategy@1.0.0
+102 silly currentTree ├── passport@0.4.0
+102 silly currentTree ├── path-to-regexp@0.1.7
+102 silly currentTree ├── pause@0.0.1
+102 silly currentTree ├── proxy-addr@2.0.4
+102 silly currentTree ├── qs@6.5.2
+102 silly currentTree ├── range-parser@1.2.0
+102 silly currentTree ├── raw-body@2.3.3
+102 silly currentTree ├── regexp-clone@0.0.1
+102 silly currentTree ├── require_optional@1.0.1
+102 silly currentTree ├── resolve-from@2.0.0
+102 silly currentTree ├── safe-buffer@5.1.2
+102 silly currentTree ├── safer-buffer@2.1.2
+102 silly currentTree ├── saslprep@1.0.2
+102 silly currentTree ├── semver@5.6.0
+102 silly currentTree ├─┬ send@0.16.2
+102 silly currentTree │ └── statuses@1.4.0
+102 silly currentTree ├── serve-static@1.13.2
+102 silly currentTree ├── setprototypeof@1.1.0
+102 silly currentTree ├── sliced@1.0.1
+102 silly currentTree ├── sparse-bitfield@3.0.3
+102 silly currentTree ├── statuses@1.5.0
+102 silly currentTree ├── type-is@1.6.16
+102 silly currentTree ├── unpipe@1.0.0
+102 silly currentTree ├── utils-merge@1.0.1
+102 silly currentTree └── vary@1.1.2
+103 silly idealTree virtualbuds@1.0.0
+103 silly idealTree ├── accepts@1.3.5
+103 silly idealTree ├── array-flatten@1.1.1
+103 silly idealTree ├── async@2.6.1
+103 silly idealTree ├── bcryptjs@2.4.3
+103 silly idealTree ├── bluebird@3.5.1
+103 silly idealTree ├── body-parser@1.18.3
+103 silly idealTree ├── bson@1.1.1
+103 silly idealTree ├── buffer-equal-constant-time@1.0.1
+103 silly idealTree ├── bytes@3.0.0
+103 silly idealTree ├── content-disposition@0.5.2
+103 silly idealTree ├── content-type@1.0.4
+103 silly idealTree ├── cookie-signature@1.0.6
+103 silly idealTree ├── cookie@0.3.1
+103 silly idealTree ├── cors@2.8.5
+103 silly idealTree ├── debug@2.6.9
+103 silly idealTree ├── depd@1.1.2
+103 silly idealTree ├── destroy@1.0.4
+103 silly idealTree ├── ecdsa-sig-formatter@1.0.11
+103 silly idealTree ├── ee-first@1.1.1
+103 silly idealTree ├── encodeurl@1.0.2
+103 silly idealTree ├── escape-html@1.0.3
+103 silly idealTree ├── etag@1.8.1
+103 silly idealTree ├─┬ express@4.16.4
+103 silly idealTree │ └── statuses@1.4.0
+103 silly idealTree ├─┬ finalhandler@1.1.1
+103 silly idealTree │ └── statuses@1.4.0
+103 silly idealTree ├── forwarded@0.1.2
+103 silly idealTree ├── fresh@0.5.2
+103 silly idealTree ├── http-errors@1.6.3
+103 silly idealTree ├── iconv-lite@0.4.23
+103 silly idealTree ├── inherits@2.0.3
+103 silly idealTree ├── ipaddr.js@1.8.0
+103 silly idealTree ├─┬ jsonwebtoken@8.5.0
+103 silly idealTree │ └── ms@2.1.1
+103 silly idealTree ├── jwa@1.4.0
+103 silly idealTree ├── jws@3.2.1
+103 silly idealTree ├── kareem@2.3.0
+103 silly idealTree ├── lodash.includes@4.3.0
+103 silly idealTree ├── lodash.isboolean@3.0.3
+103 silly idealTree ├── lodash.isinteger@4.0.4
+103 silly idealTree ├── lodash.isnumber@3.0.3
+103 silly idealTree ├── lodash.isplainobject@4.0.6
+103 silly idealTree ├── lodash.isstring@4.0.1
+103 silly idealTree ├── lodash.once@4.1.1
+103 silly idealTree ├── lodash@4.17.11
+103 silly idealTree ├── media-typer@0.3.0
+103 silly idealTree ├── memory-pager@1.5.0
+103 silly idealTree ├── merge-descriptors@1.0.1
+103 silly idealTree ├── methods@1.1.2
+103 silly idealTree ├── mime-db@1.38.0
+103 silly idealTree ├── mime-types@2.1.22
+103 silly idealTree ├── mime@1.4.1
+103 silly idealTree ├── mongodb-core@3.1.11
+103 silly idealTree ├── mongodb@3.1.13
+103 silly idealTree ├── mongoose-legacy-pluralize@1.0.2
+103 silly idealTree ├─┬ mongoose@5.4.18
+103 silly idealTree │ └── ms@2.1.1
+103 silly idealTree ├── mpath@0.5.1
+103 silly idealTree ├─┬ mquery@3.2.0
+103 silly idealTree │ └── debug@3.1.0
+103 silly idealTree ├── ms@2.0.0
+103 silly idealTree ├── negotiator@0.6.1
+103 silly idealTree ├── node-bin-setup@1.0.6
+103 silly idealTree ├── node@11.11.0
+103 silly idealTree ├── object-assign@4.1.1
+103 silly idealTree ├── on-finished@2.3.0
+103 silly idealTree ├── parseurl@1.3.2
+103 silly idealTree ├── passport-jwt@4.0.0
+103 silly idealTree ├── passport-strategy@1.0.0
+103 silly idealTree ├── passport@0.4.0
+103 silly idealTree ├── path-to-regexp@0.1.7
+103 silly idealTree ├── pause@0.0.1
+103 silly idealTree ├── proxy-addr@2.0.4
+103 silly idealTree ├── qs@6.5.2
+103 silly idealTree ├── range-parser@1.2.0
+103 silly idealTree ├── raw-body@2.3.3
+103 silly idealTree ├── regexp-clone@0.0.1
+103 silly idealTree ├── require_optional@1.0.1
+103 silly idealTree ├── resolve-from@2.0.0
+103 silly idealTree ├── safe-buffer@5.1.2
+103 silly idealTree ├── safer-buffer@2.1.2
+103 silly idealTree ├── saslprep@1.0.2
+103 silly idealTree ├── semver@5.6.0
+103 silly idealTree ├─┬ send@0.16.2
+103 silly idealTree │ └── statuses@1.4.0
+103 silly idealTree ├── serve-static@1.13.2
+103 silly idealTree ├── setprototypeof@1.1.0
+103 silly idealTree ├── sliced@1.0.1
+103 silly idealTree ├── sparse-bitfield@3.0.3
+103 silly idealTree ├── statuses@1.5.0
+103 silly idealTree ├── type-is@1.6.16
+103 silly idealTree ├── unpipe@1.0.0
+103 silly idealTree ├── utils-merge@1.0.1
+103 silly idealTree └── vary@1.1.2
+104 silly generateActionsToTake Starting
+105 silly install generateActionsToTake
+106 silly generateActionsToTake Finishing
+107 silly diffTrees action count 2
+108 silly diffTrees add node-bin-setup@1.0.6
+109 silly diffTrees add node@11.11.0
+110 silly decomposeActions action count 16
+111 silly decomposeActions fetch node-bin-setup@1.0.6
+112 silly decomposeActions extract node-bin-setup@1.0.6
+113 silly decomposeActions test node-bin-setup@1.0.6
+114 silly decomposeActions preinstall node-bin-setup@1.0.6
+115 silly decomposeActions build node-bin-setup@1.0.6
+116 silly decomposeActions install node-bin-setup@1.0.6
+117 silly decomposeActions postinstall node-bin-setup@1.0.6
+118 silly decomposeActions finalize node-bin-setup@1.0.6
+119 silly decomposeActions fetch node@11.11.0
+120 silly decomposeActions extract node@11.11.0
+121 silly decomposeActions test node@11.11.0
+122 silly decomposeActions preinstall node@11.11.0
+123 silly decomposeActions build node@11.11.0
+124 silly decomposeActions install node@11.11.0
+125 silly decomposeActions postinstall node@11.11.0
+126 silly decomposeActions finalize node@11.11.0
+127 silly runTopLevelLifecycles Starting
+128 silly executeActions Starting
+129 silly install executeActions
+130 silly doSerial global-install 0
+131 silly doParallel fetch 2
+132 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+133 verbose lock using /home/ubuntu/.npm/_locks/staging-e6567c01f0f5bc5e.lock for /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging
+134 silly doParallel extract 2
+135 silly extract node-bin-setup@1.0.6
+136 silly extract node@11.11.0
+137 verbose unbuild node_modules/.staging/node-bin-setup-fb49eef9
+138 verbose unbuild node_modules/.staging/node-159608bd
+139 silly gentlyRm /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9 is being purged from base /home/ubuntu/workspace/VirtualBuds_Assignment2
+140 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9
+141 verbose tar unpack /home/ubuntu/.npm/node-bin-setup/1.0.6/package.tgz
+142 verbose tar unpacking to /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9
+143 silly gentlyRm /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9 is being purged
+144 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9
+145 silly gentlyRm /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd is being purged from base /home/ubuntu/workspace/VirtualBuds_Assignment2
+146 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd
+147 silly gunzTarPerm modes [ '755', '644' ]
+148 verbose tar unpack /home/ubuntu/.npm/node/11.11.0/package.tgz
+149 verbose tar unpacking to /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd
+150 silly gentlyRm /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd is being purged
+151 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry index.js
+156 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+157 silly gunzTarPerm extractEntry README.md
+158 silly gentlyRm /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9/node_modules is being purged
+159 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9/node_modules
+160 silly gentlyRm /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd/node_modules is being purged
+161 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd/node_modules
+162 silly doParallel preinstall 2
+163 silly preinstall node-bin-setup@1.0.6 /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-bin-setup-fb49eef9
+164 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+165 silly preinstall node@11.11.0 /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd
+166 info lifecycle node@11.11.0~preinstall: node@11.11.0
+167 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+168 verbose lifecycle node@11.11.0~preinstall: unsafe-perm in lifecycle true
+169 verbose lifecycle node@11.11.0~preinstall: PATH: /home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/bin/node-gyp-bin:/home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd/node_modules/.bin:/home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.bin:/home/ubuntu/.nvm/versions/node/v6.11.2/bin:/usr/local/rvm/gems/ruby-2.4.0/bin:/usr/local/rvm/gems/ruby-2.4.0@global/bin:/usr/local/rvm/rubies/ruby-2.4.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin
+170 verbose lifecycle node@11.11.0~preinstall: CWD: /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging/node-159608bd
+171 silly lifecycle node@11.11.0~preinstall: Args: [ '-c', 'node installArchSpecificPackage' ]
+172 silly lifecycle node@11.11.0~preinstall: Returned: code: 1  signal: null
+173 info lifecycle node@11.11.0~preinstall: Failed to exec preinstall script
+174 verbose unlock done using /home/ubuntu/.npm/_locks/staging-e6567c01f0f5bc5e.lock for /home/ubuntu/workspace/VirtualBuds_Assignment2/node_modules/.staging
+175 silly rollbackFailedOptional Starting
+176 silly rollbackFailedOptional Finishing
+177 silly runTopLevelLifecycles Finishing
+178 silly install printInstalled
+179 verbose stack Error: node@11.11.0 preinstall: `node installArchSpecificPackage`
+179 verbose stack Exit status 1
+179 verbose stack     at EventEmitter.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+179 verbose stack     at emitTwo (events.js:106:13)
+179 verbose stack     at EventEmitter.emit (events.js:191:7)
+179 verbose stack     at ChildProcess.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+179 verbose stack     at emitTwo (events.js:106:13)
+179 verbose stack     at ChildProcess.emit (events.js:191:7)
+179 verbose stack     at maybeClose (internal/child_process.js:891:16)
+179 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+180 verbose pkgid node@11.11.0
+181 verbose cwd /home/ubuntu/workspace/VirtualBuds_Assignment2
+182 error Linux 4.9.120-c9
+183 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "install" "node"
+184 error node v6.11.2
+185 error npm  v3.10.10
+186 error code ELIFECYCLE
+187 error node@11.11.0 preinstall: `node installArchSpecificPackage`
+187 error Exit status 1
+188 error Failed at the node@11.11.0 preinstall script 'node installArchSpecificPackage'.
+188 error Make sure you have the latest version of node.js and npm installed.
+188 error If you do, this is most likely a problem with the node package,
+188 error not with npm itself.
+188 error Tell the author that this fails on your system:
+188 error     node installArchSpecificPackage
+188 error You can get information on how to open an issue for this project with:
+188 error     npm bugs node
+188 error Or if that isn't available, you can get their info via:
+188 error     npm owner ls node
+188 error There is likely additional logging output above.
+189 verbose exit [ 1, true ]
